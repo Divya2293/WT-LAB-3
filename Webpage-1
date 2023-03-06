@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Melbourne University</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Melbourne University</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Welcome to Melbourne University</h1>
+                    <p>The University of Melbourne is a truly unique environment. We’re creating a range of sustainable facilities and precincts to enable ground-breaking discoveries, now and into the future.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_Dp4NwXCyAUaLVyTkhfNAdqBUSLKsKm0PIPJxmBlDoCsUACcmyQynxX9NuJMwn5oeA8&usqp=CAU" alt="Random University Campus" width="600" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFwL6qOp79RjUd7ei5YLY-zAij1ISpZElug&usqp=CAU" alt="Random University Library" width="500" height="300">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Random University</h2>
+                    <p>Australia's leading university
+                        Our distinctive Melbourne experience helps graduates become well-rounded, thoughtful and skilled professionals – making a positive impact across the globe.
+                        
+                        Our research contributes to solving social, economic and environmental challenges the world is facing today and into the future. We’re tightly connected with our communities, at home and abroad, which only enriches our learning, teaching, and research.
+</p>
+</div></div></div></section></body></html>
