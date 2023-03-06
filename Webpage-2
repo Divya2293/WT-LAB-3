@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Melbourne University</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Melbourne University</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Programs</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+   <!--<section class="form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">--> 
+                    <h2>Apply to Melbourne University</h2>
+                    <div class="container">
+                        <div class=" jumbotron ">
+                
+                <form>
+                           
+                            <h5><b>First Name</b></h5>
+                            <div class="input-group">
+                                <span class=" input-group-addon "><i class="glyphicon glyphicon-user "></i></span>
+                                <input type="text " class="form-control " placeholder="First Name ">
+                            </div>
+                            <br><br>
+                            <h5><b>Last Name</b></h5>
+                            <div class="input-group ">
+                                <span class="input-group-addon "><i class="glyphicon glyphicon-user "></i></span>
+                                <input type="text " class="form-control " placeholder="Last Name ">
+                            </div>
+                            <br><br>
+                            <h5><b>E-mail</b></h5>
+                            <div class="input-group ">
+                                <span class="input-group-addon "><i class="glyphicon glyphicon-mail">@</i></span>
+                                <input  type="email " class="form-control " name="email " placeholder="E-mail Address">
+                            </div> <br><br>
+                            <h5><b>Phone</b></h5>
+                            <div class="input-group ">
+                                <span class="input-group-addon "><i class="glyphicon glyphicon-phone-alt"></i></span>
+                                <input type="number " class="form-control " placeholder="(845)555-1212">
+                            </div>
+                            <br><br>
+                            <h5><b>Address</b></h5>
+                            <div class="input-group ">
+                                <span class="input-group-addon "><i class="glyphicon glyphicon-home"></i></span>
+                                <input type="text " class="form-control " placeholder="Address">
+                            </div> <br><br>
+                            <h5><b>City</b></h5>
+                            <div class="input-group ">
+                                <span class="input-group-addon "><i class="glyphicon glyphicon-home"></i></span>
+                                <input type="text " class="form-control " placeholder="City">
+                            </div>
+                        </form>
+                
+                        </div>
